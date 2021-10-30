@@ -16,7 +16,7 @@
 
 ### 环境介绍
 
-本文使用了基于 `Anaconda` 的 `Python 3.8.2` 作为编译环境，假定读者已安装该环境。
+本文使用了基于 `Anaconda` 的 `Python 3.8.2` 作为编译环境，假定读者已安装该环境，使用其他环境的可以参考。
 
 本节将会指引读者安装以下程序支撑我们编写程序的运行：
 
@@ -31,9 +31,9 @@
 conda install selenium
 ```
 
-### 浏览器Driver
+### 浏览器 Driver
 
-** 注意：不同的浏览器安装不同的 Driver **
+**注意：不同的浏览器安装不同的 Driver**
 
 根据自己的浏览器，以及版本，下载对应的 Driver。
 
@@ -110,7 +110,7 @@ driver.find_elements(By.XPATH, '//span[contains(text(),"cheese")]')[0]
 
 ## 另见
 
-本文仅是笔记，读者可以参见[Selenium 浏览器自动化项目文档](https://www.selenium.dev/zh-cn/documentation/)获取更详细的资料。
+本文仅是笔记，读者可以参见 [Selenium 浏览器自动化项目文档](https://www.selenium.dev/zh-cn/documentation/)获取更详细的资料。
 
 ## 许可证
 
