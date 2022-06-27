@@ -6,22 +6,22 @@
 
 ## 简介
 
-> Selenium 是一系列工具和库的综合项目，这些工具和库支持 web 浏览器的自动化。
+> Selenium 是一系列工具和库的综合项目，这些工具和库支持 Web 浏览器的自动化。
 
-在21世纪，信息技术蓬勃发展。在一些涉及网页的重复操作，我们可以用一些技术实现自动化。Selenium 直接运行在浏览器中，就像真正的用户在操作一样。
+在21世纪，信息技术蓬勃发展。对于涉及网页的重复操作，我们可以用技术实现自动化。Selenium 直接运行在浏览器中，就像真正的用户在操作一样。
 
-本文简单介绍了一些 Selenium 的使用技巧，并给了一个示例代码。更多内容可以前往[Selenium 浏览器自动化项目文档](https://www.selenium.dev/zh-cn/documentation/)了解。
+本文简单介绍了一些 Selenium 的使用方法，并给了一些示例代码。更多内容可以前往 [Selenium 浏览器自动化项目文档](https://www.selenium.dev/zh-cn/documentation/)了解。
 
 ## 环境配置
 
 ### 环境介绍
 
-本文使用了基于 `Anaconda` 的 `Python 3.8.2` 作为编译环境，假定读者已安装该环境，使用其他环境的可以参考。
+本文使用了基于 `Anaconda3` 的 `Python 3.8.2` 作为编译环境，假定读者已安装该环境，使用其他环境的可以参考。
 
 本节将会指引读者安装以下程序支撑我们编写程序的运行：
 
 - Selenium
-- 浏览器Driver
+- 浏览器 Driver
 
 ### Selenium 安装
 
@@ -39,6 +39,7 @@ conda install selenium
 
 - (Chrome)[https://chromedriver.storage.googleapis.com/index.html]
 - (Edge)[https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]
+- (FireFox)[https://github.com/mozilla/geckodriver/releases]
 
 下载完成后解压缩，将 `*driver.exe` 放在任意文件夹下，然后将该目录配置至程序中。
 
