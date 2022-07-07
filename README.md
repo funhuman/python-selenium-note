@@ -4,6 +4,8 @@
 
 基于 Python 语言的 Selenium 笔记。
 
+[在线阅读](https://funhuman.github.io/CS-Notes/python-selenium-note/python-selenium-note.html)
+
 ## 简介
 
 > Selenium 是一系列工具和库的综合项目，这些工具和库支持 Web 浏览器的自动化。
